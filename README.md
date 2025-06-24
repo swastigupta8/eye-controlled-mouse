@@ -2,7 +2,7 @@
 
 This is a fun and simple Python project that lets you control your mouse cursor using your **eye movements**. It uses your webcam, detects facial landmarks with **MediaPipe**, and moves your mouse in real-time with **OpenCV** and **PyAutoGUI**.
 
-> This project is meant to be a casual experiment — a small but powerful reminder of what a few Python packages and some curiosity can do.
+> This project is meant to be a casual experiment, a small but powerful reminder of what a few Python packages and some curiosity can do.
 
 ## Features
 
