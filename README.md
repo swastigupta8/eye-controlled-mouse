@@ -1,24 +1,56 @@
-# Eye Controlled Mouse using Python, MediaPipe, and OpenCV
+# Eye-Controlled Mouse
 
-This is a fun and simple Python project that lets you control your mouse cursor using your **eye movements**. It uses your webcam, detects facial landmarks with **MediaPipe**, and moves your mouse in real-time with **OpenCV** and **PyAutoGUI**.
+Control your mouse cursor using your eyes and blink to click, no hands needed. This fun little project uses your webcam to track facial landmarks in real-time and lets you interact with your system using just eye movements and blinks.
 
-> This project is meant to be a casual experiment, a small but powerful reminder of what a few Python packages and some curiosity can do.
+---
 
 ## Features
 
-- Moves the mouse cursor using your eyes (based on iris tracking)
-- Clicks automatically when you blink (detected using eye landmark distances)
+- Real-time **eye tracking** using a webcam  
+- Moves the mouse cursor based on **iris position**  
+- Detects **blinks to perform clicks**  
+- Simple and intuitive — just run and go  
 
-## Requirements
+---
 
-- Python 3.10
-- `opencv-python`
-- `mediapipe`
-- `pyautogui`
+## Technologies Used
 
-Install the dependencies:
+- **Python**
+- **OpenCV** – for webcam access and image processing
+- **MediaPipe** – for facial landmark and iris detection
+- **PyAutoGUI** – for controlling the mouse on your screen
 
-```bash
-pip install opencv-python mediapipe pyautogui
+---
 
-Note: MediaPipe supports Python 3.7 to 3.10. This won’t work on Python 3.11+ or 3.13
+## How to Run
+
+1. Make sure you have **Python 3.10** installed (MediaPipe doesn't support 3.11+).
+2. Install the required packages:
+   ```bash
+   pip install opencv-python mediapipe pyautogui
+````
+
+3. Run the script:
+
+   ```bash
+   python "Eye Controlled Mouse.py"
+   ```
+4. Allow camera access. Look around to move the cursor. Blink to click.
+
+---
+
+##  What I Learned
+
+* How to use **MediaPipe FaceMesh** for precise facial landmark detection
+* How to map camera-based positions to **screen coordinates**
+* Basics of **eye-based control systems** and **hands-free interaction**
+* The power of combining simple tools to create something that feels magical
+
+---
+
+## Author
+
+**Swasti Gupta**
+Just a curious coder playing around with computer vision, automation, and fun side projects.
+
+---
