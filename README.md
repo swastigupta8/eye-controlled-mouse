@@ -28,7 +28,7 @@ Control your mouse cursor using your eyes and blink to click, no hands needed. T
 2. Install the required packages:
    ```bash
    pip install opencv-python mediapipe pyautogui
-````
+   ```
 
 3. Run the script:
 
